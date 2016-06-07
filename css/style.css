@@ -91,3 +91,4 @@ ul li:hover ul{display: block;}
 .userImg{width: 157px;height: 161px;position: absolute;top:100px;right: 200px;overflow: hidden;}
 .userImg img{display: block;width: 157px;height: 161px;}
 .userImgBtn{position: absolute;top:280px;right: 200px;background: #A8BC7B;border: none;display: inline-block;height: 40px;line-height: 40px;color: #fff;width: 155px;font-size: 22px;}
+.barBoxTit{font-size: 26px;line-height: 50px;color: #fff;width: 400px;margin-left: 20px;float: left;}
