@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>IconFont</title>
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="iconfont.css">
+</head>
+<body>
+    <div class="main">
+        <h1>IconFont 图标</h1>
+        <ul class="icon_lists clear">
+            
+                <li>
+                <i class="icon iconfont">&#xf0025;</i>
+                    <div class="name">团队</div>
+                    <div class="code">&amp;#xf0025;</div>
+                    <div class="fontclass">.tuandui</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe666;</i>
+                    <div class="name">设置</div>
+                    <div class="code">&amp;#xe666;</div>
+                    <div class="fontclass">.shezhi</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe60c;</i>
+                    <div class="name">铃铛</div>
+                    <div class="code">&amp;#xe60c;</div>
+                    <div class="fontclass">.lingdang</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6d7;</i>
+                    <div class="name">消息</div>
+                    <div class="code">&amp;#xe6d7;</div>
+                    <div class="fontclass">.xiaoxi</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe792;</i>
+                    <div class="name">列表</div>
+                    <div class="code">&amp;#xe792;</div>
+                    <div class="fontclass">.liebiao</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe652;</i>
+                    <div class="name">箭头</div>
+                    <div class="code">&amp;#xe652;</div>
+                    <div class="fontclass">.jiantou</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe629;</i>
+                    <div class="name">人</div>
+                    <div class="code">&amp;#xe629;</div>
+                    <div class="fontclass">.ren</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe60a;</i>
+                    <div class="name">设置</div>
+                    <div class="code">&amp;#xe60a;</div>
+                    <div class="fontclass">.shezhi1</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe60d;</i>
+                    <div class="name">主页</div>
+                    <div class="code">&amp;#xe60d;</div>
+                    <div class="fontclass">.zhuye</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe61e;</i>
+                    <div class="name">用户</div>
+                    <div class="code">&amp;#xe61e;</div>
+                    <div class="fontclass">.yonghu</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe61c;</i>
+                    <div class="name">货</div>
+                    <div class="code">&amp;#xe61c;</div>
+                    <div class="fontclass">.huo</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xf0056;</i>
+                    <div class="name">入库</div>
+                    <div class="code">&amp;#xf0056;</div>
+                    <div class="fontclass">.ruku</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe617;</i>
+                    <div class="name">出库</div>
+                    <div class="code">&amp;#xe617;</div>
+                    <div class="fontclass">.chuku</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe64f;</i>
+                    <div class="name">辅助工具</div>
+                    <div class="code">&amp;#xe64f;</div>
+                    <div class="fontclass">.icon</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6ff;</i>
+                    <div class="name">箭头</div>
+                    <div class="code">&amp;#xe6ff;</div>
+                    <div class="fontclass">.arrow-left-copy</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe64a;</i>
+                    <div class="name">箭头</div>
+                    <div class="code">&amp;#xe64a;</div>
+                    <div class="fontclass">.jiantou1</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe60a;</i>
+                    <div class="name">搜索</div>
+                    <div class="code">&amp;#xe60a;</div>
+                    <div class="fontclass">.sousuo</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe659;</i>
+                    <div class="name">退出</div>
+                    <div class="code">&amp;#xe659;</div>
+                    <div class="fontclass">.084tuichu</div>
+                </li>
+            
+        </ul>
+
+
+        <div class="helps">
+            第一步：使用font-face声明字体
+            <pre>
+@font-face {font-family: 'iconfont';
+    src: url('iconfont.eot'); /* IE9*/
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('iconfont.woff') format('woff'), /* chrome、firefox */
+    url('iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+</pre>
+第二步：定义使用iconfont的样式
+            <pre>
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+</pre>
+第三步：挑选相应图标并获取字体编码，应用于页面
+<pre>
+&lt;i class="iconfont"&gt;&amp;#x33;&lt;/i&gt;
+</pre>
+        </div>
+
+    </div>
+</body>
+</html>

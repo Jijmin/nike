@@ -1,0 +1,93 @@
+@font-face {font-family: 'iconfont';src: url('../font/admin/iconfont.eot'); /* IE9*/src: url('../font/admin/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('../font/admin/iconfont.woff') format('woff'), /* chrome、firefox */url('../font/admin/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/url('../font/admin/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */}
+.iconfont{font-family:"iconfont" !important;font-size:16px;font-style:normal;-webkit-font-smoothing: antialiased;-webkit-text-stroke-width: 0.2px;-moz-osx-font-smoothing: grayscale;}
+@font-face {font-family: 'iconfont';src: url('../font/regist/iconfont.eot'); /* IE9*/src: url('../font/regist/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('../font/regist/iconfont.woff') format('woff'), /* chrome、firefox */url('../font/regist/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/url('../font/regist/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */}
+a{text-decoration: none;}
+body{font-family: "微软雅黑"}
+.bar{height:50px;background: #5e87b0;overflow: hidden;}
+.barBox{width: 1369px;margin:0 auto;}
+.auto{width: 1369px;margin: 0 auto;}
+.bar .barLogo{width: 190px;height: 50px;border-right: 1px solid #507aa4;float: left;padding-left: 60px;}
+.bar .barLogo h1{font-size: 26px;color: #fff;font-weight: bold;letter-spacing: 3px;line-height: 50px;padding-left: 40px;background: url(../images/nike.png) no-repeat 0 center;}
+.bar .barList{float: left;overflow: hidden;}
+.bar .barList li{float: left;line-height: 50px;}
+.bar .barList li a{text-decoration: none;color: #fff;display: inline-block;padding:0 40px;border-right: 1px solid #507aa4;background: #6f94b8;}
+.bar .barList li a.bar_on,.bar .barList li a:hover{background: #80A0C1;}
+.bar .barUser{float: right;}
+.bar .barUser a{color: #fff;font-size: 20px;padding: 20px;line-height: 50px;}
+.bar .barUser a:hover{background: #80A0C1;}
+.bar .barUser a img{display: inline-block;border-radius: 50%;vertical-align: middle;width: 30px;margin-right: 10px;}
+.leftNav{width: 250px;border-right: 1px solid #cdd2d2;background: #f4f4f4;min-height: 600px;position: fixed;left: 0;top: 0;}
+.leftNav .leftList li.leftListLi a{color: #555;height: 48px;border-bottom: 1px solid #fff;display: block;border-top: 1px solid #e7e7e7;line-height: 50px;padding-left: 70px;font-weight: bold;}
+.leftNav .leftList li.leftListLi a.on{background: #dbdbdb;}
+.leftNav .leftList li.leftListLi a i{font-weight: normal;margin-right: 15px;}
+.leftListUl{text-indent: 30px;}
+.leftListUl li a{font-weight: normal;display: inline-block;color: #555;height: 48px;border-bottom: 1px solid #fff;display: block;border-top: 1px solid #e7e7e7;line-height: 50px;padding-left: 70px;}
+.leftListUl li a.leftNavon{background: #dbdbdb;}
+.content{float: left;background: #fff;width: 1095px;margin-left: 250px;margin-top: -600px;position: relative;}
+.content .contentTit{border-bottom: 1px solid #cdd2d2;}
+.content .contentTit .contentText{height: 50px;line-height: 50px;color: #333333;margin-left: 30px;font-size: 14px;}
+.content .contentTit .contentText .gt{padding:0 5px;display: inline-block;}
+.content .contentTit .contentText .conTitText{color: #80A0C1;}
+.content .contentTit .contentInput{margin-top: 10px;margin-bottom: 10px;padding-left: 30px;}
+.content .contentTit .contentInput input[type=button]{padding: 0 20px;display: inline-block;height: 35px;background: #A8BC7B;border: none;color: #fff;font-size: 14px;}
+.content .contentTit .contentInput input[type=text]{display: inline-block;width: 390px;height: 31px;padding: 0 10px;font-size: 14px;}
+.content .userTable{width: 1035px;margin-left: 30px;margin-top: 30px;color: #666;}
+.content .userTable tr th{border: 1px solid #ccc;height: 35px;text-align: center;background: #DBDBDB;font-weight: bold;}
+.content .userTable tr td{border: 1px solid #DBDBDB;height: 35px;text-align: center;}
+.content .userTable tr td a{color: #666;}
+.content .page{margin-top: 30px;text-align: center;}
+.content .page a{color: #666;padding: 0 10px;}
+.content .page a.on{color: #5e87b0;}
+.content .userForm{width: 500px;margin: 50px auto 0;}
+.content .userForm .userFormList{height: 40px;line-height: 40px;margin-top: 30px;position: relative;}
+.content .userForm .userFormList span{width: 39px;display: inline-block;height: 39px;line-height: 39px;text-align: center;border: 1px solid #ccc;}
+.content .userForm .userFormList span.spanon{background: #A8BC7B;color: #fff;}
+.content .userForm .userFormList textarea{width: 380px;padding: 10px;height: 80px;display:block;float: left;margin-bottom: 30px;font-size: 20px;}
+.content .userForm .userFormList label{width: 80px;display: inline-block;text-align: right;float: left;}
+.content .userForm .userFormList input{width: 380px;height: 35px;display: block;float: left;padding: 0 10px;font-size: 18px;}
+.content .userForm .userFormList input.validate{width: 180px;float: left;}
+.content .userForm .userFormList .validateNum{width: 180px;border: 1px solid #aaa;float: left;height: 37px;text-align: center;font-size: 20px;letter-spacing: 20px;background: url(../images/3KAIJ73YH1_19EUNP}%2OCI.png);font-weight: bold;}
+.content .userForm input[type=submit]{width: 200px;display:block;height: 40px;margin-top: 40px;margin-left:80px;border: none;color: #fff;background: #A8BC7B;font-size: 22px;font-weight: bold;}
+.content .userForm .userFormList p{width: 380px;height: 35px;display: block;float: left;padding: 0 10px;font-size: 18px;border: 1px solid #aaa;background: #eee;line-height: 35px;}
+.content .userForm .userFormList h6{font-size: 12px;position: absolute;right: 317px;top: -35px;display: none;}
+.content .userForm .userFormList h6 i{margin-right: 5px;}
+.content .userForm .userFormList h6 .prompt{color: yellow;}
+.content .userForm .userFormList h6 .error{color: red;}
+.content .userForm .userFormList h6 .ok{color: green;}
+.login{width: 1369px;height: 797px;margin: 0 auto;background: url(../images/login_bg.jpg) no-repeat;position: relative;}
+.login .loginBox{width: 331px;height: 390px;position: absolute;top: 110px;left: 494px;}
+.login .loginBox h1{font-size: 24px;text-align: center;margin-top: 70px;color: #333333;padding-bottom: 10px;}
+.tip{width: 250px;height: 40px;position: relative;margin-left: 30px;}
+/* .tip span{display: none;padding: 5px;font-size: 12px;position: absolute;top: -32px;right:-20px;border: 1px solid #ccc;border-radius: 5px;background: #fff;box-shadow: 1px 1px 1px #d3d3d3;z-index: 100;} */
+.tip span{display: none;font-size: 12px;position: absolute;top: -20px;right:-20px;z-index: 100;}
+.tip b{width: 20px;height: 20px;display: block;position: absolute;top: 10px;right: -45px;}
+.tip span i.prompt{margin-right: 5px;color: #ffd200;}
+.tip span i.error{margin-right: 5px;color: #f5683d;}
+.tip span i.ok{color: #01ceb8;}
+.loginForm input{width: 250px;height: 40px;border: none;background: #d3d3d3;border-radius: 5px;margin: 20px auto 0;display: block;font-size: 16px;padding: 0 10px;display: block;position: relative;}
+.loginForm input.validate,.loginForm input.validateNum{width: 120px;display: inline-block;}
+.loginForm input.validate{margin-left: 30px;}
+.loginForm input.validateNum{width: 105px;text-align: center;letter-spacing: 5px;font-size: 20px;}
+.loginForm input.loginSubmit[type=submit]{width: 270px;height: 40px;display: block;background: #4591fb;color: #fff;font-size: 24px;font-weight: bold;}
+ul li ul{display: none;}
+ul li:hover ul{display: block;}
+.detial{width: 1035px;margin-left: 30px;color: #666;border-top: none;display: none;}
+.detial tr th{height: 35px;text-align: center;font-weight: bold;background: #eee;}
+.detial tr td{height: 35px;text-align: center;}
+.detial tr td a{color: #666;}
+.Th1{width: 79px; border: 1px solid #ccc;}
+.Th2{width: 154px; border: 1px solid #ccc;}
+.Th3{width: 115px; border: 1px solid #ccc;}
+.Th4{width: 279px; border: 1px solid #ccc;}
+.Th5{width: 420px; border: 1px solid #ccc;}
+.inputForm{margin: 30px;}
+.inputForm .inputList{width: 510px;float:left;margin-bottom: 30px;line-height: 35px;}
+.inputForm .inputList label{width: 100px;display: inline-block;text-align: right;float: left;line-height: 35px;}
+.inputForm .inputList input{width: 300px;height: 35px;display: block;float: left;padding: 0 10px;font-size: 18px;}
+.inputForm .inputList select{width: 324px;height: 38px;display: block;float: left;padding: 0 10px;font-size: 18px;}
+.inputForm .inputList textarea{font-size: 18px;width: 810px;height: 200px;padding: 10px;}
+.inputForm .inputList p{width: 300px;height: 35px;float: left;padding: 0 10px;font-size: 18px;border: 1px solid #aaa;background: #eee;line-height: 35px;}
+.inputForm .inputBtn{display: block;width: 200px;float: right;margin-right: 105px;height: 40px;border: none;color: #fff;background: #A8BC7B;font-size: 22px;font-weight: bold;}
+.userImg{width: 157px;height: 161px;position: absolute;top:100px;right: 200px;overflow: hidden;}
+.userImg img{display: block;width: 157px;height: 161px;}
+.userImgBtn{position: absolute;top:280px;right: 200px;background: #A8BC7B;border: none;display: inline-block;height: 40px;line-height: 40px;color: #fff;width: 155px;font-size: 22px;}

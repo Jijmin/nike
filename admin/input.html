@@ -1,0 +1,312 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>入库单管理</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+</head>
+<body>
+	<!-- 头部开始 -->
+	<iframe src="top.html" width="100%" height="50px" frameborder="no" scrolling="no" id="topIframe"></iframe>
+	<!-- 头部结束 -->
+	<div class="auto">
+		<!-- 左侧菜单栏开始 -->
+		<iframe src="left.html" width="250px;" height="600px;" frameborder="no" scrolling="no"></iframe>
+		<!-- 左侧菜单栏结束 -->
+	<div class="content">
+		<div class="contentTit">
+			<div class="contentText">
+				库存管理<span class="gt">&gt;</span><span class="conTitText">入库单管理</span>
+			</div>
+			<div class="contentInput">
+				<a href="#"><input type="button" value="创建入库单" /></a>
+				<input type="button" value="搜索" style="float: right;" />
+				<input type="text" placeholder="请输入入库单基本信息号" style="float: right;" />
+			</div>
+		</div>
+		<div style="height: 30px;"></div>
+		<table class="userTable" style="margin-top: 0;">
+			<tr>
+				<th>序号</th>
+				<th>入库单号</th>
+				<th>说明</th>
+				<th>创建时间</th>
+				<th>操作</th>
+			</tr>
+			<tr onClick="testClick('detial1_js')">
+				<td>1<i class="iconfont" style="font-size: 10px;margin-left: 5px;">&#xe652;</i></td>
+				<td>1133</td>
+				<td>三加一</td>
+				<td>2016-2-2 22:22</td>
+				<td>
+					<a href="#">删除</a>
+					<a href="#">修改</a>
+					<a href="#">查看</a>
+					<a href="#">添加明细</a>
+				</td>
+			</tr>
+			<table class="detial" id="detial1_js">
+				<tr>
+					<th class="Th1"></th>
+					<th class="Th2">入库单明细号</th>
+					<th class="Th3">说明</th>
+					<th class="Th4">创建时间</th>
+					<th class="Th5">操作</th>
+				</tr>
+				<tr>
+					<td class="Th1"></td>
+					<td class="Th2">11</td>
+					<td class="Th3">Nike男鞋</td>
+					<td class="Th4">2016-2-2 22:22</td>
+					<td class="Th5">
+						<a href="#">删除</a>
+						<a href="#">修改</a>
+						<a href="#">查看</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="Th1"></td>
+					<td class="Th2">11</td>
+					<td class="Th3">Nike男鞋</td>
+					<td class="Th4">2016-2-2 22:22</td>
+					<td class="Th5">
+						<a href="#">删除</a>
+						<a href="#">修改</a>
+						<a href="#">查看</a>
+					</td>
+				</tr>
+			</table>
+		</table>
+		<table class="userTable" style="margin-top: 0;">
+			<tr>
+				<th>序号</th>
+				<th>入库单号</th>
+				<th>说明</th>
+				<th>创建时间</th>
+				<th>操作</th>
+			</tr>
+			<tr onClick="testClick('detial2_js')">
+				<td>2<i class="iconfont" style="font-size: 12px;margin-left: 5px;">&#xe652;</i></td>
+				<td>1133</td>
+				<td>三加一</td>
+				<td>2016-2-2 22:22</td>
+				<td>
+					<a href="#">删除</a>
+					<a href="#">修改</a>
+					<a href="#">查看</a>
+					<a href="#">添加明细</a>
+				</td>
+			</tr>
+			<table class="detial" id="detial2_js">
+				<tr>
+					<th class="Th1"></th>
+					<th class="Th2">入库单明细号</th>
+					<th class="Th3">说明</th>
+					<th class="Th4">创建时间</th>
+					<th class="Th5">操作</th>
+				</tr>
+				<tr>
+					<td class="Th1"></td>
+					<td class="Th2">11</td>
+					<td class="Th3">Nike男鞋</td>
+					<td class="Th4">2016-2-2 22:22</td>
+					<td class="Th5">
+						<a href="#">删除</a>
+						<a href="#">修改</a>
+						<a href="#">查看</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="Th1"></td>
+					<td class="Th2">11</td>
+					<td class="Th3">Nike男鞋</td>
+					<td class="Th4">2016-2-2 22:22</td>
+					<td class="Th5">
+						<a href="#">删除</a>
+						<a href="#">修改</a>
+						<a href="#">查看</a>
+					</td>
+				</tr>
+			</table>
+		</table>
+		<table class="userTable" style="margin-top: 0;">
+			<tr>
+				<th>序号</th>
+				<th>入库单号</th>
+				<th>说明</th>
+				<th>创建时间</th>
+				<th>操作</th>
+			</tr>
+			<tr onClick="testClick('detial3_js')">
+				<td>3<i class="iconfont" style="font-size: 12px;margin-left: 5px;">&#xe652;</i></td>
+				<td>1133</td>
+				<td>三加一</td>
+				<td>2016-2-2 22:22</td>
+				<td>
+					<a href="#">删除</a>
+					<a href="#">修改</a>
+					<a href="#">查看</a>
+					<a href="#">添加明细</a>
+				</td>
+			</tr>
+			<table class="detial" id="detial3_js">
+				<tr>
+					<th class="Th1"></th>
+					<th class="Th2">入库单明细号</th>
+					<th class="Th3">说明</th>
+					<th class="Th4">创建时间</th>
+					<th class="Th5">操作</th>
+				</tr>
+				<tr>
+					<td class="Th1"></td>
+					<td class="Th2">11</td>
+					<td class="Th3">Nike男鞋</td>
+					<td class="Th4">2016-2-2 22:22</td>
+					<td class="Th5">
+						<a href="#">删除</a>
+						<a href="#">修改</a>
+						<a href="#">查看</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="Th1"></td>
+					<td class="Th2">11</td>
+					<td class="Th3">Nike男鞋</td>
+					<td class="Th4">2016-2-2 22:22</td>
+					<td class="Th5">
+						<a href="#">删除</a>
+						<a href="#">修改</a>
+						<a href="#">查看</a>
+					</td>
+				</tr>
+			</table>
+		</table>
+		<table class="userTable" style="margin-top: 0;">
+			<tr>
+				<th>序号</th>
+				<th>入库单号</th>
+				<th>说明</th>
+				<th>创建时间</th>
+				<th>操作</th>
+			</tr>
+			<tr onClick="testClick('detial4_js')">
+				<td>4<i class="iconfont" style="font-size: 12px;margin-left: 5px;">&#xe652;</i></td>
+				<td>1133</td>
+				<td>三加一</td>
+				<td>2016-2-2 22:22</td>
+				<td>
+					<a href="#">删除</a>
+					<a href="#">修改</a>
+					<a href="#">查看</a>
+					<a href="#">添加明细</a>
+				</td>
+			</tr>
+			<table class="detial" id="detial4_js">
+				<tr>
+					<th class="Th1"></th>
+					<th class="Th2">入库单明细号</th>
+					<th class="Th3">说明</th>
+					<th class="Th4">创建时间</th>
+					<th class="Th5">操作</th>
+				</tr>
+				<tr>
+					<td class="Th1"></td>
+					<td class="Th2">11</td>
+					<td class="Th3">Nike男鞋</td>
+					<td class="Th4">2016-2-2 22:22</td>
+					<td class="Th5">
+						<a href="#">删除</a>
+						<a href="#">修改</a>
+						<a href="#">查看</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="Th1"></td>
+					<td class="Th2">11</td>
+					<td class="Th3">Nike男鞋</td>
+					<td class="Th4">2016-2-2 22:22</td>
+					<td class="Th5">
+						<a href="#">删除</a>
+						<a href="#">修改</a>
+						<a href="#">查看</a>
+					</td>
+				</tr>
+			</table>
+		</table>
+		<table class="userTable" style="margin-top: 0;">
+			<tr>
+				<th>序号</th>
+				<th>入库单号</th>
+				<th>说明</th>
+				<th>创建时间</th>
+				<th>操作</th>
+			</tr>
+			<tr onClick="testClick('detial5_js')">
+				<td>5<i class="iconfont" style="font-size: 12px;margin-left: 5px;">&#xe652;</i></td>
+				<td>1133</td>
+				<td>三加一</td>
+				<td>2016-2-2 22:22</td>
+				<td>
+					<a href="#">删除</a>
+					<a href="#">修改</a>
+					<a href="#">查看</a>
+					<a href="#">添加明细</a>
+				</td>
+			</tr>
+			<table class="detial" id="detial5_js">
+				<tr>
+					<th class="Th1"></th>
+					<th class="Th2">入库单明细号</th>
+					<th class="Th3">说明</th>
+					<th class="Th4">创建时间</th>
+					<th class="Th5">操作</th>
+				</tr>
+				<tr>
+					<td class="Th1"></td>
+					<td class="Th2">11</td>
+					<td class="Th3">Nike男鞋</td>
+					<td class="Th4">2016-2-2 22:22</td>
+					<td class="Th5">
+						<a href="#">删除</a>
+						<a href="#">修改</a>
+						<a href="#">查看</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="Th1"></td>
+					<td class="Th2">11</td>
+					<td class="Th3">Nike男鞋</td>
+					<td class="Th4">2016-2-2 22:22</td>
+					<td class="Th5">
+						<a href="#">删除</a>
+						<a href="#">修改</a>
+						<a href="#">查看</a>
+					</td>
+				</tr>
+			</table>
+		</table>
+		<div class="page">
+			<a href="#">上一页</a>
+			<a href="#" class="on">1</a>
+			<a href="#">2</a>
+			<a href="#">下一页</a>
+		</div>
+	</div><!-- content中间 -->
+	</div>
+</body>
+<script type="text/javascript">
+function testClick(id){
+	for(var i=1;i<6;i++){
+		if(id != "detial"+i+"_js"){//非自身都隐藏
+    	  document.getElementById("detial"+i+"_js").style.display ='none';
+       }
+      if(document.getElementById(id).style.display=='block'){
+    		document.getElementById(id).style.display='none';
+    	}else{
+    		document.getElementById(id).style.display='block'
+    	}
+	} 
+}
+</script>
+</html>

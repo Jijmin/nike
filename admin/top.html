@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<title>头部公共部分</title>
+</head>
+<body>
+	<div class="bar">
+		<div class="barBox">
+			<div class="barLogo">
+			<h1>NIKE</h1>
+		</div>
+		<ul class="barList" id="js_barList">
+			<li><a href="javascript:void(0);" id="barList1">用户管理</a></li>
+			<li><a href="javascript:void(0);" id="barList2">货号管理</a></li>
+			<li><a href="javascript:void(0);" id="barList3">入库单管理</a></li>
+			<li><a href="javascript:void(0);" id="barList4">出库单管理</a></li>
+			<li><a href="javascript:void(0);" id="barList5">辅助管理</a></li>
+		</ul>
+		<div class="barUser">
+			<a href="javascript:void(0);" class="user"><img src="../images/avatar3.jpg" alt="" />admin</a>
+			<a href="javascript:void(0);" class="exit"><i class="iconfont" style="margin-right: 5px;">&#xe659;</i>退出</a>
+		</div>
+		</div>
+	</div><!-- bar头部导航条 -->
+</body>
+<script type="text/javascript">
+	window.onload=function(){
+		var js_barList=document.getElementById('js_barList').getElementsByTagName('a');
+		for(var i= 0;i<js_barList.length;i++){
+			js_barList[i].onclick=function(){
+				for(var j=0;j<js_barList.length;j++){
+					js_barList[j].className='';
+				}
+				if(this.className=='bar_on'){
+					this.className='';
+				}
+				else{
+					this.className='bar_on';
+				}
+			}
+		}
+	}
+</script>
+</html>

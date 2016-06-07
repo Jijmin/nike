@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>左边菜单栏</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+</head>
+<body>
+	<div class="leftNav">
+			<ul class="leftList">
+				<li class="leftListLi"><a href="javascript:void(0);"><i class="iconfont">&#xe666;</i>系统管理</a></li>
+				<ul class="leftListUl">
+					<li><a href="javascript:void(0);" id="leftListA1">用户管理</a></li>
+					<li><a href="javascript:void(0);" id="leftListA2">货号管理</a></li>
+				</ul>
+				<li class="leftListLi"><a href="javascript:void(0);"><i class="iconfont">&#xe61c;</i>库存管理</a></li>
+				<ul class="leftListUl">
+					<li><a href="javascript:void(0);" id="leftListA3">入库单管理</a></li>
+					<li><a href="javascript:void(0);" id="leftListA4">出库单管理</a></li>
+				</ul>
+				<li class="leftListLi"><a href="javascript:void(0);"><i class="iconfont">&#xe64f;</i>辅助管理</a></li>
+				<ul class="leftListUl">
+					<li><a href="javascript:void(0);" id="leftListA5">修改密码</a></li>
+				</ul>
+			</ul>
+		</div><!-- leftNav左侧菜单栏 -->
+</body>
+<script type="text/javascript">
+	window.onload=function(){
+		var leftList=new Array();
+		leftList[0]= document.getElementById('leftListA1');
+		leftList[1]= document.getElementById('leftListA2');
+		leftList[2]= document.getElementById('leftListA3');
+		leftList[3]= document.getElementById('leftListA4');
+		leftList[4]= document.getElementById('leftListA5');
+		for(var i=0;i<leftList.length;i++){
+			leftList[i].onclick=function(){
+				for(var j=0;j<leftList.length;j++){
+					leftList[j].className='';
+				}
+				if(this.className=='leftNavon'){
+					this.className='';
+				}
+				else{
+					this.className='leftNavon';
+				}
+				return false;
+			}
+		}
+	}
+</script>
+</html>

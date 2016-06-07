@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>登录界面</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+</head>
+<body>
+	<div class="login">
+		<div class="loginBox">
+			<h1>管理员登录</h1>
+			<form action="" class="loginForm" id="loginForm_js">
+				<div class="tip">
+					<input type="text" id="loginName" placeholder="请输入用户名" />
+					<span id="loginNameMsg"></span>
+				</div>
+				<div class="tip">
+					<input type="password" id="loginPass" placeholder="请输入密码" />
+					<span id="loginPassMsg"></span>
+				</div>
+				
+				<input type="text" class="validate" id = "input"  placeholder="请输入验证码" />
+				<input type="text" class="validateNum" id="code" onclick="createCode2()" />
+				<input type="submit" class="loginSubmit" onclick = "validate()" value="登录" />
+			</form>
+		</div>
+	</div><!-- login登录框 -->
+</body>
+<script type = "text/javascript" src = "../js/checkCode.js"></script>
+</html>
